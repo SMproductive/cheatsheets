@@ -4,10 +4,16 @@
 - [[#usage][Usage]]
 - [[#how-to][How to?]]
   - [[#heading][Heading]]
+  - [[#visibility-cycling][Visibility cycling]]
+  - [[#motion][Motion]]
+  - [[#structure-editing-i-e-common-bindings][Structure editing i. e. common bindings]]
+  - [[#sparse-trees][Sparse trees]]
+  - [[#plain-lists][Plain lists]]
   - [[#drawers][Drawers]]
   - [[#blocks][Blocks]]
   - [[#tables][Tables]]
-  - [[#hyperlinks][Hyperlinks]]
+  - [[#hyperlinks][HYPERLINKS]]
+  - [[#items-todo][Items TODO]]
 
 * Why?
 Because org files are:
@@ -21,26 +27,83 @@ Because org files are:
 - Documentations
 - Configurations
 
-#  LocalWords:  org foo baz
-
 * How to?
 ** Heading
 *** Heading Level 3
 ...
+** Visibility cycling
+|-----------+------------------|
+| *Binding* | *Action*         |
+|-----------+------------------|
+| <TAB>     | org-cycle        |
+| S-<TAB>   | org-global-cycle |
+|-----------+------------------|
+** Motion
+|-----------+---------------------------------+--------|
+| *Binding* | *Action*                        | *Note* |
+|-----------+---------------------------------+--------|
+| C-c C-n   | org-next-visible-heading        |        |
+| C-c C-p   | org-previous-visible-heading    |        |
+| C-c C-f   | org-forward-heading-same-level  |        |
+| C-c C-b   | org-backward-heading-same-level |        |
+| C-c C-u   | outline-up-heading              |        |
+|-----------+---------------------------------+--------|
+** Structure editing i. e. common bindings
+|-----------+-----------------------------------------+-----------------------------------------------------------+
+| *binding* | *action*                                | *note*                                                    |
+|-----------+-----------------------------------------+-----------------------------------------------------------+
+| m-<ret>   | org-meta-return                         | insert a new heading, item or row.                        |
+| c-<ret>   | org-insert-heading-respect-content      | insert a new heading at the end of the current subtree.   |
+| m-s-<ret> | org-insert-todo-heading                 | insert new todo entry with same level as current heading. |
+| c-s-<ret> | org-insert-todo-heading-respect-content | insert new todo entry at the end of the current subtree.  |
+| <tab>     | org-cycle                               |                                                           |
+| m-<left>  | org-do-promote                          |                                                           |
+| m-<right> | org-do-demote                           |                                                           |
+| m-<up>    | org-move-subtree-up                     |                                                           |
+| m-<down>  | org-move-subtree-down                   |                                                           |
+| c-c ^     | org-sort                                |                                                           |
+| c-x n s   | org-narrow-to-subtree                   | everything else disappears                                |
+| c-x n b   | org-narrow-to-block                     | everything else disappears                                |
+| c-x n w   | widen                                   | display everything else again                             |
+| c-c *     | org-toggle-heading                      | change current line to heading                            |
+|-----------+-----------------------------------------+-----------------------------------------------------------+
+** Sparse trees
+|-----------+-----------------+------------------------------------------------|
+| *Binding* | *Action*        | *Note*                                         |
+|           |                 |                                                |
+| C-c /     | org-sparse-tree | Display all TODO items or whatever you select. |
+| M-g n     | next-error      |                                                |
+| M-g p     | previous-error  |                                                |
+|-----------+-----------------+------------------------------------------------|
+** Plain lists
+*** Unordered
+- List item
+  + List item
+    * List item
+    * Asterisk
+  + Plus
+- Minus
+*** Ordered
+1. First
+2. Second
+   1) first
+   2) second
+3. Third
+
 ** Drawers
 :DrawerName:
 Drawers can be folded in emacs ;b
 :END:
 ** Blocks
 There are many kinds of blocks including source code, quotes and many more...
-*** Source code
-#+begin_src go
-// this is a comment in a go source code block
-#+end_src
 *** Quote
 #+begin_quote
 This is a quote
 #+end_quote
+*** Source code
+#+begin_src go
+// this is a comment in a go source code block
+#+end_src
 ** Tables
 *** Column: start with |
 | column 1 | 2 | 3 |
@@ -53,11 +116,16 @@ This is a quote
 |   2 |     |     |
 |   3 |     |     |
 |   5 |     |     |
+|-----+-----+-----|
 
 *** Alignments
-|          <r> |    <c>    | <l>            |
+|--------------+-----------+----------------|
+|     foo      |       bar | baz            |
+|--------------+-----------+----------------|
+|     <c>      |       <r> | <l>            |
 | alksdkflkakh | alksdfjlk | alskdjasklkbbk |
-|            s |     a     | i              |
+|      s       |         a | i              |
+|--------------+-----------+----------------|
 
 *** Non straight forward bindings
 |-----------+-----------------------+----------------------------------|
@@ -72,4 +140,8 @@ This is a quote
 |-----------+-----------------------+----------------------------------|
 *** TODO Spreadsheet
 *** TODO Plot
-** TODO Hyperlinks
+** TODO HYPERLINKS
+** Items TODO
+*** Basics
+
+
