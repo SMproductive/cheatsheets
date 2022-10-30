@@ -1,0 +1,75 @@
+#+title: org-mode
+* Table of contents :toc:
+- [[#why][Why?]]
+- [[#usage][Usage]]
+- [[#how-to][How to?]]
+  - [[#heading][Heading]]
+  - [[#drawers][Drawers]]
+  - [[#blocks][Blocks]]
+  - [[#tables][Tables]]
+  - [[#hyperlinks][Hyperlinks]]
+
+* Why?
+Because org files are:
+- compatible with every text editor (they are just plain text)
+- easy to write and structure
+- well implemented in emacs Github and Gitlab
+* Usage
+- Todo lists
+- Scheduling
+- Project management
+- Documentations
+- Configurations
+
+#  LocalWords:  org foo baz
+
+* How to?
+** Heading
+*** Heading Level 3
+...
+** Drawers
+:DrawerName:
+Drawers can be folded in emacs ;b
+:END:
+** Blocks
+There are many kinds of blocks including source code, quotes and many more...
+*** Source code
+#+begin_src go
+// this is a comment in a go source code block
+#+end_src
+*** Quote
+#+begin_quote
+This is a quote
+#+end_quote
+** Tables
+*** Column: start with |
+| column 1 | 2 | 3 |
+|          |   |   |
+
+*** Horizontal rule: start with |-
+|-----+-----+-----|
+| foo | bar | baz |
+|-----+-----+-----|
+|   2 |     |     |
+|   3 |     |     |
+|   5 |     |     |
+
+*** Alignments
+|          <r> |    <c>    | <l>            |
+| alksdkflkakh | alksdfjlk | alskdjasklkbbk |
+|            s |     a     | i              |
+
+*** Non straight forward bindings
+|-----------+-----------------------+----------------------------------|
+| *Binding* | *Action*              | *Note*                           |
+|-----------+-----------------------+----------------------------------|
+| C-c ^     | org-table-sort-lines  | choose between different options |
+| S-Arrow   | org-move-cell-Arrow   |                                  |
+| M-j/k     | org-table-move-row    |                                  |
+| M-h/l     | org-table-move-column |                                  |
+| C-c +     | org-table-sum         | sum is in clipboard              |
+| S-<RET>   | org-table-copy-down   | selected fields                  |
+|-----------+-----------------------+----------------------------------|
+*** TODO Spreadsheet
+*** TODO Plot
+** TODO Hyperlinks
