@@ -1,1 +1,13 @@
 #+title: CHEATSHEETS
+*Cheatsheets are short documents about how to handle life and use technology*
+
+|---------------+----------------|
+|    *Life*     |  *Technology*  |
+|---------------+----------------|
+| Relationships |   Mechanical   |
+|    Finance    |   Electrical   |
+|     Work      |       IT       |
+|    Health     |      Math      |
+| Spirituality  | Laws of nature |
+|     <c>       |      <c>       |
+|---------------+----------------|
