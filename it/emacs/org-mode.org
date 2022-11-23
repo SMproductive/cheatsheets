@@ -3,17 +3,13 @@
 - [[#why][Why?]]
 - [[#usage][Usage]]
 - [[#how-to][How to?]]
-  - [[#heading][Heading]]
-  - [[#visibility-cycling][Visibility cycling]]
-  - [[#motion][Motion]]
-  - [[#structure-editing-i-e-common-bindings][Structure editing i. e. common bindings]]
-  - [[#sparse-trees][Sparse trees]]
-  - [[#plain-lists][Plain lists]]
-  - [[#drawers][Drawers]]
-  - [[#blocks][Blocks]]
+  - [[#document-structure][Document structure]]
   - [[#tables][Tables]]
   - [[#hyperlinks][HYPERLINKS]]
   - [[#items-todo][Items TODO]]
+  - [[#properties-and-columns][Properties and columns]]
+  - [[#dates-and-times][Dates and times]]
+  - [[#markup-for-rich-contents][Markup for rich contents]]
 
 * Why?
 Because org files are:
@@ -28,17 +24,19 @@ Because org files are:
 - Configurations
 
 * How to?
-** Heading
-*** Heading Level 3
+Some of the mappings are from DOOM emacs.
+** Document structure
+*** Heading
+**** Heading Level 3
 ...
-** Visibility cycling
+*** Visibility cycling
 |-----------+------------------|
 | *Binding* | *Action*         |
 |-----------+------------------|
 | <TAB>     | org-cycle        |
 | S-<TAB>   | org-global-cycle |
 |-----------+------------------|
-** Motion
+*** Motion
 |-----------+---------------------------------+--------|
 | *Binding* | *Action*                        | *Note* |
 |-----------+---------------------------------+--------|
@@ -48,10 +46,10 @@ Because org files are:
 | C-c C-b   | org-backward-heading-same-level |        |
 | C-c C-u   | outline-up-heading              |        |
 |-----------+---------------------------------+--------|
-** Structure editing i. e. common bindings
-|-----------+-----------------------------------------+-----------------------------------------------------------+
+*** Structure editing i. e. common bindings
+|-----------+-----------------------------------------+-----------------------------------------------------------|
 | *binding* | *action*                                | *note*                                                    |
-|-----------+-----------------------------------------+-----------------------------------------------------------+
+|-----------+-----------------------------------------+-----------------------------------------------------------|
 | m-<ret>   | org-meta-return                         | insert a new heading, item or row.                        |
 | c-<ret>   | org-insert-heading-respect-content      | insert a new heading at the end of the current subtree.   |
 | m-s-<ret> | org-insert-todo-heading                 | insert new todo entry with same level as current heading. |
@@ -66,8 +64,8 @@ Because org files are:
 | c-x n b   | org-narrow-to-block                     | everything else disappears                                |
 | c-x n w   | widen                                   | display everything else again                             |
 | c-c *     | org-toggle-heading                      | change current line to heading                            |
-|-----------+-----------------------------------------+-----------------------------------------------------------+
-** Sparse trees
+|-----------+-----------------------------------------+-----------------------------------------------------------|
+*** Sparse trees
 |-----------+-----------------+------------------------------------------------|
 | *Binding* | *Action*        | *Note*                                         |
 |           |                 |                                                |
@@ -75,32 +73,32 @@ Because org files are:
 | M-g n     | next-error      |                                                |
 | M-g p     | previous-error  |                                                |
 |-----------+-----------------+------------------------------------------------|
-** Plain lists
-*** Unordered
+*** Plain lists
+**** Unordered
 - List item
   + List item
     * List item
     * Asterisk
   + Plus
 - Minus
-*** Ordered
+**** Ordered
 1. First
 2. Second
    1) first
    2) second
 3. Third
 
-** Drawers
+*** Drawers
 :DrawerName:
 Drawers can be folded in emacs ;b
 :END:
-** Blocks
+*** Blocks
 There are many kinds of blocks including source code, quotes and many more...
-*** Quote
+**** Quote
 #+begin_quote
 This is a quote
 #+end_quote
-*** Source code
+**** Source code
 #+begin_src go
 // this is a comment in a go source code block
 #+end_src
@@ -143,5 +141,38 @@ This is a quote
 ** TODO HYPERLINKS
 ** Items TODO
 *** Basics
+|------------------+-------------------------+----------------------------------------|
+| *Binding*        | *Action*                | *Note*                                 |
+|------------------+-------------------------+----------------------------------------|
+| C-c C-t          | org-todo                | Select state                           |
+| <SPC> m t        | org-todo                | Select state in doom                   |
+| S-<RIGHT>/<LEFT> |                         | Following/preceding TODO state         |
+| C-S-h/l          |                         | Following/preceding TODO state in Doom |
+| S-M-<RET>        | org-insert-todo-heading |                                        |
+| <RET>            | +org/dwim-at-point      | Mark as done                           |
+|------------------+-------------------------+----------------------------------------|
+** TODO Properties and columns
+** TODO Dates and times
+** TODO Markup for rich contents
+*** Paragraphs
+This is a paragraph
 
+This another one
+
+*Note* the empty line between paragraphs!
+*** Emphasis and monospace
+*bold*
+/italic/
+_underline_
++strikethrough+
+~code~
+=verbatim=
+*** Subscripts and superscripts
+|---------------+-------------|
+| *Superscript* | *Subscript* |
+|---------------+-------------|
+|   ^{stuff}    |  _{stuff}   |
+|    a = b^{2}     |  r_{1} = 4*3   |
+|      <c>      |     <c>     |
+|---------------+-------------|
 
