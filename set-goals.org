@@ -2,37 +2,43 @@
 * Table of contents :toc:
 - [[#why][Why?]]
 - [[#how-to][How to?]]
-  - [[#goal-types][Goal types]]
+  - [[#static][Static]]
+  - [[#dynamic][Dynamic]]
 
 * Why?
 We set goals:
-- Because before we run we should know where.
-- Because it gives us unbelievable motivation.
-- Because we are here to live in personal freedom.
+- Because before we run we should *know where*.
+- Because it gives us unbelievable *motivation*.
+- Because we are here to live in *personal freedom*.
 * How to?
-** Goal types
-We need both to ensure progress!
-*** Static
+We use two types of goals to ensure awsome lives!
+|----------+-----------|
+| *Static* | *Dynamic* |
+|----------+-----------|
+| tracking | growing   |
+|----------+-----------|
+** Static
+:INFO:
 Static goals are important because they *satisfy* us when reached and they give us the ability to *track progress*.
 The goal can be ticked off when reached.
-**** Experiences
+:END:
+**** Experiences -- What do I want to see or feel?
 We want to have amazing life experiences, that is why we should set us goals to ensure them.
-*Question:* //What do I want to see or feel?//
 - Trips we want to make
 - Activities we want to try
-**** Things
+**** Things -- What do I want to have?
 We want to have certain things in our lives, to ensure we get them we set goals.
-*Question:* //What do I want to have?//
 - Car
 - House
 - Pool
-*** Dynamic
+** Dynamic
+:INFO:
 Dynamic goals are important because they *consistently grow* us. They get bigger as we grow.
-**** Achievements
+:END:
+**** Achievements -- What do I want to do?
 We want to change the world, to do so we need measurable goals.
-*Question:* //What do I want to do?//
 - Build a scalable business
 - Increase income by 10% pa.
-- Serve 100 more customers this year
-- Make 2 more sales this week
+- Serve 100 more customers this year and next year ...
+- Make 2 more sales this week and next week ...
 - Get an expert on a new subject every year
