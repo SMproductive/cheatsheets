@@ -22,9 +22,11 @@ We use two types of goals to ensure awsome lives!
 Static goals are important because they *satisfy* us when reached and they give us the ability to *track progress*.
 The goal can be ticked off when reached.
 :END:
-**** Experiences -- What do I want to see or feel?
+**** Experiences -- What do I want to see, feel, hear, taste or smell?
 We want to have amazing life experiences, that is why we should set us goals to ensure them.
 - Trips we want to make
+- Food we want to try
+- Culture we want to experience
 - Activities we want to try
 **** Things -- What do I want to have?
 We want to have certain things in our lives, to ensure we get them we set goals.
