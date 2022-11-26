@@ -1,0 +1,3 @@
+#+title: README
+
+* This folder is just for playing around for accurate documentation use emacs build in documentation!
