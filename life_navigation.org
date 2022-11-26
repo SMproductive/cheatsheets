@@ -1,0 +1,74 @@
+#+title: live navigation
+* Table of contents :toc:
+- [[#why][Why?]]
+- [[#how-to][How to?]]
+  - [[#know-us][Know us]]
+  - [[#goals][Goals]]
+  - [[#know-others][Know others]]
+
+* Why?
+1. We should know us:
+   - Because knowing us *navigates us* through life.
+   - Because knowing us helps *others understand* us.
+   - Because knowing us *stabilizes us* mentally.
+2. We set goals:
+   - Because clear goals *motivate* us.
+   - Because clear goals *determine* our daily actions.
+   - Because clear goals *are* half the work.
+3. We should know others:
+   - Because knowing others *helps them* helping us.
+   - Because knowing others *helps us* helping them.
+   - Because knowing others *predicts* the future.
+* How to?
+:INFO:
+We answer the following questions for ourselves to get clarity.
+:END:
+** Know us
+*** Joy -- Why do I enjoy ... ?
+We want to know what we want to do, that is why we ask this.
+- I enjoy traveling *because* I learn about new cultures.
+- I enjoy sports *because* it increases my daily energy.
+- I enjoy sex *because* it just feels right.
+*** Strengths -- Why do I do ... so great?
+We want to know where we are good at, that is why we ask this.
+- I am good at selling stuff *because* I love the bleeding edge conversations.
+- I am good at creating strategies *because* I see things no one else can see.
+- I am good at painting *because* that is how I express myself.
+*** Pain -- Why do I reject ... ?
+We want to know where our personal borders are, that is why we ask this.
+- I reject stealing *because* it is dishonest.
+- I reject eating meat *because* animals are killed for that.
+- I reject one night stands *because* it would be contradictory to stop having them when having a partner.
+*** Weaknesses -- Why do I do ... so bad?
+We want to know what where we need a fix or what someone else should do, that is why we ask this.
+- I suck at conversations *because* of my lack of genuine interest for other people.
+- I create awful designs *because* I just hate designing.
+- I make inaccurate calculations *because* I lack focus.
+** Goals
+*** Experiences -- What do I want to see, feel, hear, taste or smell?
+We want to have amazing life experiences, that is why we should set us goals to ensure them.
+- Trips we want to make
+- Food we want to try
+- Culture we want to experience
+- Activities we want to try
+*** Things -- What do I want to have?
+We want to have certain things in our lives, to ensure we get them we set goals.
+- Car
+- House
+- Pool
+*** Achievements -- What do I want to do?
+We want to change the world, to do so we need measurable goals.
+- Build a scalable business
+- Increase income by 10% pa.
+- Serve 100 more customers this year and next year ...
+- Make 2 more sales this week and next week ...
+- Get an expert on a new subject every year
+** Know others
+Ask them everything you asked yourself!
+- [[*Joy -- Why do I enjoy ... ?][Joy]]
+- [[*Strengths -- Why do I do ... so great?][Strengths]]
+- [[*Pain -- Why do I reject ... ?][Pain]]
+- [[*Weaknesses -- Why do I do ... so bad?][Weaknesses]]
+- [[*Experiences -- What do I want to see, feel, hear, taste or smell?][Experiences]]
+- [[*Things -- What do I want to have?][Things]]
+- [[*Achievements -- What do I want to do?][Achievements]]
