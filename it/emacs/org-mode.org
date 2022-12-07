@@ -68,7 +68,7 @@ Some of the mappings are from DOOM emacs.
 *** Sparse trees
 |-----------+-----------------+------------------------------------------------|
 | *Binding* | *Action*        | *Note*                                         |
-|           |                 |                                                |
+|-----------+-----------------+------------------------------------------------|
 | C-c /     | org-sparse-tree | Display all TODO items or whatever you select. |
 | M-g n     | next-error      |                                                |
 | M-g p     | previous-error  |                                                |
