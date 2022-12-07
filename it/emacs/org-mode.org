@@ -1,5 +1,5 @@
 #+title: org-mode
-* COMMENT Table of contents :toc:
+* Table of contents :toc:
 - [[#why][Why?]]
 - [[#usage][Usage]]
 - [[#how-to][How to?]]
