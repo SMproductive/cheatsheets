@@ -1,5 +1,5 @@
 #+title:Electrical
-* COMMENT Table of contents :toc:
+* Table of contents :toc:
 - [[#why][Why?]]
 - [[#how-to][How to?]]
   - [[#disciplines][Disciplines]]

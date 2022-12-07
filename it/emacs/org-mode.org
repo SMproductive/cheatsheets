@@ -1,4 +1,4 @@
-#+title: org-mode
+#+title: Org Mode
 * Table of contents :toc:
 - [[#why][Why?]]
 - [[#usage][Usage]]

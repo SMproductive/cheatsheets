@@ -1,5 +1,5 @@
 #+title: Life Navigation
-* COMMENT Table of contents :toc:
+* Table of contents :toc:
 - [[#why][Why?]]
 - [[#how-to][How to?]]
   - [[#know-us][Know us]]
