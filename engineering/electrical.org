@@ -1,0 +1,25 @@
+#+title:Electrical
+* COMMENT Table of contents :toc:
+- [[#why][Why?]]
+- [[#how-to][How to?]]
+  - [[#disciplines][Disciplines]]
+
+* Why?
+Because the world is powered electrical!
+* How to?
+:INFO:
+Learn about the following disciplines and you will succeed in electrical engineering!
+:END:
+** Disciplines
+*** Maths
+Learn more here in the [[file:../maths/][maths folder]].
+**** Number theory i.e. Arithmetic
+Studying the number theory we learn how to use mathematical concepts such as addition, subtraction, multiplication, division and more. Also complex numbers fall under this term.
+**** Algebra
+Studying algebra we learn about equations and the meaning of letters in formulas.
+**** Geometry
+Studying geometry we learn about how to model objects as equations. It gives us the power to imagine abstract ideas.
+**** Analysis
+Studying analysis we learn how to understand probabilities and predict outcomes. It also dives deeper into the complex number space. It is about differentiation, integral, sequences and much more.
+*** Physics
+*** Software
