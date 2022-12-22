@@ -1,0 +1,18 @@
+#+title: Applied mathematics
+
+* Table of contents :toc:
+- [[#dynamical-systems-and-differential-equations][Dynamical systems and differential equations]]
+- [[#mathematical-physics][Mathematical physics]]
+- [[#theory-of-computation][Theory of computation]]
+- [[#information-theory-and-signal-processing][Information theory and signal processing]]
+- [[#probability-and-statistics][Probability and statistics]]
+- [[#game-theory][Game theory]]
+- [[#operations-research][Operations research]]
+
+* Dynamical systems and differential equations
+* Mathematical physics
+* Theory of computation
+* Information theory and signal processing
+* Probability and statistics
+* Game theory
+* Operations research
