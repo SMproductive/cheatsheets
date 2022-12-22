@@ -1,16 +1,8 @@
 #+title: Pure mathematics
-#+STARTUP: latexpreview
-* Table of contents :toc:
-- [[#algebra][Algebra]]
-- [[#calculus-and-analysis][Calculus and analysis]]
-- [[#geometry-and-topology][Geometry and topology]]
-- [[#combinatorics][Combinatorics]]
-- [[#logic][Logic]]
-- [[#number-theory][Number theory]]
-
+#+STARTUP: nolatexpreview
+# * Table of contents :toc:
 * Algebra
 $\sum_{n=1} ^{\infty} a_i x^i$
-\sum_{n}^{5}a^{n}
 * Calculus and analysis
 * Geometry and topology
 * Combinatorics
