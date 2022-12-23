@@ -1,19 +1,44 @@
 #+title: Pure mathematics
+#+author: Maximilian Strele
 * Table of contents :toc:
+- [[#number-theory][Number theory]]
+  - [[#arithmetic][Arithmetic]]
+  - [[#sum-of-natural-numbers][Sum of natural numbers]]
 - [[#algebra][Algebra]]
 - [[#calculus-and-analysis][Calculus and analysis]]
 - [[#geometry-and-topology][Geometry and topology]]
 - [[#combinatorics][Combinatorics]]
 - [[#logic][Logic]]
-- [[#number-theory][Number theory]]
+
+* Number theory
+:info:
+The number theory is primarily devoted to the study of the integers and integer-valued functions.
+:end:
+** Arithmetic
+*** Operations
+- Addition: $1+2=3$
+- Subtraction: $3-2=1$
+- Multiplication: $3\times{}2=6$
+- Division: $6\div{}3=2$
+*** Fundamental theorem of arithmetic\newline Prime factorization theorem
+
+Every integer greater than 1 can be represented *uniquely* as a *product of prime numbers*, up to the order of the factors. 
+
+$$n=p_{1}^{n_{1}}p_{2}^{n_{2}}\dotso{}p_{k}^{n_{k}}=\prod_{i=1}^{k}p_{i}^{n_{i}}$$
+
+** Sum of natural numbers
+To get to this formula just right down a few examples and find out the pattern.
+
+                             $$1=1=\frac{1*2}{2}$$
+
+                            $$3=1+2=\frac{2*3}{2}$$
+
+                           $$6=1+2+3=\frac{3*4}{2}$$
+                           
+$$S=\sum_{a=1}^{n}a=1+2+\dotso{}+n=\frac{n(n+1)}{2}$$
 
 * Algebra
-This is a sum sign
-\[
-\sum_{a=0}^{5} a^{2}
-\]
 * Calculus and analysis
 * Geometry and topology
 * Combinatorics
 * Logic
-* Number theory
