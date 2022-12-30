@@ -82,7 +82,24 @@ Algebra uses [[Arithmetic][arithmetic]] to solve equations i.e. finding the unkn
 Are the same as in [[Arithmetic][arithmetic]]but Multiplication is the default operation.
 $$10ab=10\times{}a\times{}b$$
 :end:
-*** Exponential rules
+*** Exponent rules
+- 0 rule: $x^{0}=1$
+- Product rule: $x^{n}\times{}x^{m}=x^{n+m}$
+- Quotient rule: $x^{n}\div{}x^{m}=x^{n-m}$
+- Power rule: $(x^{n})^{m}=x^{n\times{}m}$
+- Negative exponent: $x^{-n}=1\div{}x^{n}$
+- Fraction exponent: $x^{\frac{1}{2}}=\sqrt{x}$
+- Distribution: $(x\times{}y)^{n}=x^{n}\times{}y^{n}$
+*** Inequalities
+- Greater: $x>1$
+  - Sign turns when multiplying with a negative number: $-x<-1$
+- Greater equal: $x\geq{}1$
+  - Sign turns when multiplying with a negative number: $-x\leq{}-1$
+- Less: $x<1$
+  - Sign turns when multiplying with a negative number: $-x>-1$
+- Less equal: $x\leq{}1$
+  - Sign turns when multiplying with a negative number: $-x\geq{}-1$
+- Unequal: $x\neq{}1$
 * Calculus and analysis
 * Geometry and topology
 * Combinatorics
