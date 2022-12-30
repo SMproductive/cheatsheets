@@ -25,7 +25,7 @@ $$1+2=3$$
 :ORDERED:  t
 :END:
 1. _Parenthesis:_ $(3+2)^{2}\times{}2=50$
-2. _Exponentiation:_ $3^{2}=3\times{}3}=9$
+2. _Exponentiation:_ $3^{2}=3\times{}3=9$
    - Commutative $(2^{2})^{3}=(2^{3})^{2}$
    - Associative $(2^{2})^{3}=2^{6}$
 3. _Multiplication:_ $3\times{}2=2+2+2=3+3=6$
@@ -71,17 +71,18 @@ To get this formula just write down a few examples and find out the pattern.\nop
 
 * Algebra
 :info:
-Algebra uses [[Arithmetic][Arithmetic]] to solve equations i.e. finding the unknown elements.
+Algebra uses [[Arithmetic][arithmetic]] to solve equations i.e. finding the unknown elements.
 \begin{align*}
 1+2=x\\
-3=x$$
+3=x
 \end{align*}
 :end:
 ** Operations
 :info:
-Are the same as in [[Arithmetic]] but Multiplication is the default operation.
+Are the same as in [[Arithmetic][arithmetic]]but Multiplication is the default operation.
 $$10ab=10\times{}a\times{}b$$
 :end:
+*** Exponential rules
 * Calculus and analysis
 * Geometry and topology
 * Combinatorics
