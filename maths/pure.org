@@ -1,16 +1,6 @@
 #+title: Pure mathematics
 #+author: Maximilian Strele
-* Table of contents :toc:
-- [[#number-theory][Number theory]]
-  - [[#arithmetic][Arithmetic]]
-  - [[#examples][Examples]]
-- [[#algebra][Algebra]]
-  - [[#operations][Operations]]
-- [[#calculus-and-analysis][Calculus and analysis]]
-- [[#geometry-and-topology][Geometry and topology]]
-- [[#combinatorics][Combinatorics]]
-- [[#logic][Logic]]
-
+#+SETUPFILE: ~/templates/latex.org
 * Number theory
 :info:
 The number theory is primarily devoted to the study of the integers and integer-valued functions.
